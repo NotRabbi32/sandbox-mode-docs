@@ -1,14 +1,12 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
+rabbi32:
+  name: Rabbi32
+  title: Game Dev, Docs Creator
+  url: https://www.youtube.com/@Rabbi-Dev
+  image_url: https://yt3.googleusercontent.com/i4DtHnSSQ9DcoyPuYStVVZQGL0sJFELHHcFw3CZjrP_TOrg6QVzBfHIJHNBO-M1u0UnTOOnvlA=s160-c-k-c0x00ffffff-no-rj
+  page: false
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    youtube: Rabbi-Dev
+    github: Not_Rabbi32
 
 slorber:
   name: Sébastien Lorber
