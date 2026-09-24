@@ -1,19 +1,43 @@
-# React + Vite
+# Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+```
 
-## React Compiler
+**Note**: feel free to use the package manager of your choice.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Local Development
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+```bash
+npm run start
+```
 
-## Expanding the ESLint configuration
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Build
+
+```bash
+npm run build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+Using SSH:
+
+```bash
+USE_SSH=true npm run deploy
+```
+
+Not using SSH:
+
+```bash
+GIT_USER=<Your GitHub username> npm run deploy
+```
+
+If you are using GitHub Pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
